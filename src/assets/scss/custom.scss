@@ -1,0 +1,180 @@
+.box1 {
+  width: 160px;
+  height: 150px;
+  background-color: #000040;
+}
+.nav {
+  height: 75px;
+}
+.footer {
+  height: 65px;
+  margin: auto;
+}
+.footerul {
+  height: 65px;
+}
+.top-circle {
+  background-color: #36CBC6;
+  border-radius: 50%;
+  height: 488px;
+  width: 488px;
+  position: absolute;
+  top: -37%;
+  left: -15%;
+}
+.sec-circle {
+  background-color: #6DE465;
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 12%;
+  right: -15%;
+}
+.third-circle {
+  background-color: #6DE465;
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 28%;
+  left: -12%;
+}
+.fourth-circle {
+  background-color: #65E4A9;
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 48%;
+  left: 40%;
+}
+.fifth-circle {
+  background-color: #53B9D9;
+  border-radius: 50%;
+  width: 431px;
+  height: 431px;
+  position: absolute;
+  bottom: -20%;
+  left: -10%;
+}
+.customCard {
+  display: flex;
+  border-radius: 10px;
+  box-shadow:1px, 1px, 6px, #000040;
+  height: 150px;
+  background-color: #fff;
+}
+.customCard:nth-child(even) {
+  flex-direction: row-reverse;
+  .card-img{
+    margin-left: 0;
+    margin-right: -15px;
+  }
+}
+.text-color {
+  color: #868686;
+}
+.second-color {
+  color: #9196B2;
+}
+.third-color {
+  color: #444C6C;
+}
+.card-img {
+  width: 160px;
+  height: 150px;
+  object-fit: cover;
+  margin-left: -15px;
+}
+.room-information {
+  border-radius: 10px;
+}
+.pages {
+  border-radius: 10px;
+}
+.singleimg {
+  width: 350px;
+  height: 180px;
+  object-fit: cover;
+  margin-left: -15px;
+  margin-bottom: 20px;
+}
+.big-title {
+  font-size: $font-size-lg;
+  line-height: 24px;
+}
+.price {
+  font-size: 15px;
+}
+.room-equipment-ul {
+  margin-bottom: 30px;
+}
+.room-equipment {
+  height: 22px;
+  background-color: #E5E5E5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  font-size: $font-size-sm;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+.bottombutton {
+  background-color: #FD9B02;
+  color: #fff;
+  border-radius: 10px;
+  width: 180px;
+  height: 52px;
+  font-size: 30px;
+  border: 0px;
+  text-align: center;
+  line-height: 36px;
+}
+.input {
+  width: 100%;
+  background-color: #EBF0F3;
+  border: 0;
+  border-radius: 5px;
+}
+.datebutton {
+  width: 40%;
+  background-color: #EBF0F3;
+  border: 0;
+  border-radius: 5px;
+}
+.ok {
+  width: 350px;
+  margin-left: -15px;
+  background-color: #52B4D4;
+}
+.white {
+  color: #fff;
+}
+.informationbutton {
+  color: #FD9B02;
+  background-color: transparent;
+  font-size: 12px;
+  border: 0;
+}
+.purchasebutton {
+  font-size: $font-size-sm;
+  border: 0;
+  background-color: transparent;
+}
+.purchase-bgc {
+  background-color: #EBF0F3;
+}
+.totalprice {
+  font-size: 14px;
+  color: #FD9B02;
+  border-top: 1px solid #9196B2;
+}
+.finishimg {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  margin-left: -15px;
+  margin-bottom: 20px;
+}
