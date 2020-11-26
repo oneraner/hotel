@@ -1,24 +1,13 @@
-# hotel
+2019 F2e 第六關 旅館預約服務實作
 
-## Project setup
-```
-npm install
-```
+實作內容：
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1.串接 API 得到旅館房型及房間資料。
+2.透過 Vuex 傳送資料到房間頁面。
+3.透過 v-if 判斷房間是否有 wi-fi ...等等設備。
+4.使用 Vuetify 日期選擇器。
+5.不使用 API 實現簡單的加購功能。
 
-### Compiles and minifies for production
-```
-npm run build
-```
+使用設計稿：野鴿 設計師
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+須研究：計算選擇前後的日期有幾天？包含幾天假日或平日？
